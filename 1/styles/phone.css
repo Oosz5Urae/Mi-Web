@@ -2,6 +2,10 @@ body {
   background-color: black;
 }
 
+#alineamiento {
+	text-align: center;
+}
+
 h1 {
 	color: rgb(173, 50, 50);
 	font-size: 100px;
