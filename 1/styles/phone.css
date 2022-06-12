@@ -3,11 +3,12 @@ body {
 }
 
 h1 {
-	color: white;
+	color: rgb(173, 50, 50);
 	font-size: 100px;
 	text-decoration: underline;
 	text-align: center;
-	}
+	text-transform: uppercase;
+}
 
 h2 {
 	color: white;
