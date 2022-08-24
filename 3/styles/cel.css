@@ -1,0 +1,22 @@
+* {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 70px;
+text-align: center;
+text-transform: uppercase;
+width: 100%;
+margin: 0px auto;
+text-shadow: -1px -1px 0px whitesmoke,
+		3px 3px 0px whitesmoke,
+		6px 6px 0px white;
+}
+
+#one {
+  color: white;
+ background-color: #5e2129;
+ text-align: center;
+}
