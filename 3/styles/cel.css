@@ -8,7 +8,8 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 93px;
 text-align: center;
 text-transform: uppercase;
-color:goldenrod
+color:goldenrod;
+background-color: #5e2129;
 }
 
 #one {
@@ -37,30 +38,36 @@ color:goldenrod
 
 #h1 {
   font-size: 55px;
-  color:goldenrod
+  color:goldenrod;
+  text-shadow: .09em .09em 0 rgb(0, 0, 0);
 }
 
 #h2 {
   font-size: 55px;
-  color:goldenrod
+  color:goldenrod;
+  text-shadow: .09em .09em 0 rgb(0, 0, 0);
 }
 
 #h3 {
   font-size: 55px;
-  color:goldenrod
+  color:goldenrod;
+  text-shadow: .09em .09em 0 rgb(0, 0, 0);
 }
 
 #h4 {
   font-size: 45px;
-  color:lightseagreen
+  color:lightseagreen;
+  text-shadow: .09em .09em 0 rgb(0, 0, 0);
 }
 
 #h5 {
   font-size: 45px;
-  color:lightseagreen
+  color:lightseagreen;
+  text-shadow: .09em .09em 0 rgb(0, 0, 0);
 }
 
 #h6 {
   font-size: 45px;
   color: goldenrod;
+  text-shadow: .09em .09em 0 rgb(0, 0, 0);
 }
