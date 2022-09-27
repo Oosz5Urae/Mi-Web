@@ -5,13 +5,51 @@
 
 header {
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 70px;
+font-size: 93px;
 text-align: center;
 text-transform: uppercase;
+color:goldenrod
 }
 
 #one {
   color: white;
  background-color: #5e2129;
  text-align: center;
+}
+
+#two {
+  color:white;
+  background-color: #5e2129;
+  text-align: center;
+}
+
+#three {
+  color:white;
+  background-color: #5e2129;
+  text-align: center;
+}
+
+#h1 {
+  font-size: 55px;
+  color:goldenrod
+}
+
+#h2 {
+  font-size: 55px;
+  color:goldenrod
+}
+
+#h3 {
+  font-size: 55px;
+  color:goldenrod
+}
+
+#h4 {
+  font-size: 45px;
+  color:lightseagreen
+}
+
+#h5 {
+  font-size: 45px;
+  color:lightseagreen
 }
