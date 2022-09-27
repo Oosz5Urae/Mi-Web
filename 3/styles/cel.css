@@ -29,6 +29,12 @@ color:goldenrod
   text-align: center;
 }
 
+#four {
+  color:white;
+  background-color: #5e2129;
+  text-align: center;
+}
+
 #h1 {
   font-size: 55px;
   color:goldenrod
@@ -52,4 +58,9 @@ color:goldenrod
 #h5 {
   font-size: 45px;
   color:lightseagreen
+}
+
+#h6 {
+  font-size: 45px;
+  color: goldenrod;
 }
