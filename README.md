@@ -1,4 +1,4 @@
-<a title="OoszUrae" href="https://twitter.com/OoszUrae/header_photo")><img src="1500x500.jpg" alt="OoszUrae" /></a>
+<img src="https://twitter.com/OoszUrae/header_photo.jpg">
 <h1 align="center">Hi 👋, I'm Julio Salas (Oosz Urae)</h1>
 <h3 align="center">A student of programming.</h3>
 
