@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Julio Salas (Oosz Urae)</h1>
+<h1 align="center" img src="My Readme/fondo.jpg>Hi 👋, I'm Julio Salas (Oosz Urae)</h1>
 <h3 align="center">A student of programming.</h3>
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
