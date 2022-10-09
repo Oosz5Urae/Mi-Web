@@ -1,3 +1,4 @@
+<img src="My Readme/fondo.jpg"/>
 <h1 align="center">Hi 👋, I'm Julio Salas (Oosz Urae)</h1>
 <h3 align="center">A student of programming.</h3>
 
