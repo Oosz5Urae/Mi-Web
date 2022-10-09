@@ -1,4 +1,4 @@
-<img src="https://twitter.com/OoszUrae/header_photo.jpg">
+<img src="https://pbs.twimg.com/profile_banners/2175604884/1656207879/1500x500">
 <h1 align="center">Hi 👋, I'm Julio Salas (Oosz Urae)</h1>
 <h3 align="center">A student of programming.</h3>
 
