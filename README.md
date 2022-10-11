@@ -8,7 +8,7 @@
 
 - 📫 How to reach me **salasfjulioe@gmail.com**
 
-- ⚡ Fun fact **I study programming in a country that cuts off electricity and internet regularly... It's a dark joke. XD**
+- ⚡ Fun fact **Working hard to get out of a "slave farm" XD then I'll tell you how I did it XD**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
