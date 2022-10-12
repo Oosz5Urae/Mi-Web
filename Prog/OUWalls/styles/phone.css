@@ -1,0 +1,136 @@
+body {
+  background-color: black;
+}
+
+#alineamiento {
+	text-align: center;
+	}
+
+	#gal img {
+		border-radius: 10px;
+	}
+
+h1 {
+	color: rgb(9, 118, 138);
+	font-size: 97px;
+	text-decoration: underline;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+	margin: 0px auto;
+	position: absolute;
+
+	text-shadow: -1px -1px 0px whitesmoke,
+		3px 3px 0px whitesmoke,
+		6px 6px 0px white;
+}
+
+h2 {
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	transform: skewY(-5deg);
+
+	text-shadow: -1px -1px 0px rgb(9, 118, 138),
+		3px 3px 0px rgb(9, 118, 138),
+		6px 6px 0px rgb(9, 118, 138);
+}
+
+h3 {
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	transform: skewY(-5deg);
+
+	text-shadow: -1px -1px 0px rgb(9, 118, 138),
+		3px 3px 0px rgb(9, 118, 138),
+		6px 6px 0px rgb(9, 118, 138);
+}
+
+h4 {
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	transform: skewY(-5deg);
+
+	text-shadow: -1px -1px 0px rgb(9, 118, 138),
+		3px 3px 0px rgb(9, 118, 138),
+		6px 6px 0px rgb(9, 118, 138);
+}
+
+h5 {
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	transform: skewY(-5deg);
+
+	text-shadow: -1px -1px 0px rgb(9, 118, 138),
+		3px 3px 0px rgb(9, 118, 138),
+		6px 6px 0px rgb(9, 118, 138);
+}
+
+h6 {
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	transform: skewY(-5deg);
+
+	text-shadow: -1px -1px 0px rgb(9, 118, 138),
+		3px 3px 0px rgb(9, 118, 138),
+		6px 6px 0px rgb(9, 118, 138);
+}
+
+p {
+	font-size: 25px;
+	color: white;
+}
+
+a {
+	font-size: 20px;
+}
+
+.nav {
+  position: fixed;
+  display: flex;
+  justify-content: right;
+    top: 0;
+		left: 0;
+    width: 100%;
+    background: rgb(172, 237, 230);
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+}

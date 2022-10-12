@@ -1,0 +1,83 @@
+* {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 93px;
+text-align: center;
+text-transform: uppercase;
+color:goldenrod;
+background-color: #5e2129;
+}
+
+#one {
+  color: white;
+ background-color: #5e2129;
+ text-align: center;
+}
+
+#two {
+  color:white;
+  background-color: #5e2129;
+  text-align: center;
+}
+
+#three {
+  color:white;
+  background-color: #5e2129;
+  text-align: center;
+}
+
+#four {
+  color:white;
+  background-color: #5e2129;
+  text-align: center;
+}
+
+#five {
+  color:white;
+  background-color: #5e2129;
+  text-align: center;
+}
+
+#six {
+  font-size: 40px;
+}
+
+#h1 {
+  font-size: 55px;
+  color:goldenrod;
+  text-shadow: .09em .09em 0 rgb(0, 0, 0);
+}
+
+#h2 {
+  font-size: 55px;
+  color:goldenrod;
+  text-shadow: .09em .09em 0 rgb(0, 0, 0);
+}
+
+#h3 {
+  font-size: 55px;
+  color:goldenrod;
+  text-shadow: .09em .09em 0 rgb(0, 0, 0);
+}
+
+#h4 {
+  font-size: 45px;
+  color:lightseagreen;
+  text-shadow: .09em .09em 0 rgb(0, 0, 0);
+}
+
+#h5 {
+  font-size: 45px;
+  color:lightseagreen;
+  text-shadow: .09em .09em 0 rgb(0, 0, 0);
+}
+
+#h6 {
+  font-size: 45px;
+  color: goldenrod;
+  text-shadow: .09em .09em 0 rgb(0, 0, 0);
+}
