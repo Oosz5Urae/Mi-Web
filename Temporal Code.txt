@@ -1,0 +1,21 @@
+const projectile = new Projectile(
+ canvas.width / 2,
+  canvas.height / 2,
+ 5,
+ 'red',
+ {
+     x: 1,
+    y: 1
+ }
+  )
+
+  const projectile2 = new Projectile(
+    canvas.width / 2,
+     canvas.height / 2,
+    5,
+    'green',
+    {
+        x: -1,
+       y: -1
+    }
+     )
