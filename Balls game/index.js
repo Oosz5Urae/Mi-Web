@@ -52,16 +52,24 @@ const player = new Player(x, y,
     30, 'blue')
 player.draw()
 
-const projectile = new Projectile(
-    canvas.width / 2,
-    canvas.height / 2,
-    5,
-    'red',
-    {
-        x: 1,
-        y: 1
+function spawnEnemies() {
+setInterval(() => {
+    const radius = 30
+
+    let x
+    let y
+
+    if (Math.random() < 0.5) {
+x = Math.random() < 0.5 ? 0 - radius : canvas.width
+     + radius
+y = Math.random() * canvas.height
+    } else {
+        x = Math.random() * canvas.width
+        y = Math.random() < 0.5 ? 0 - radius : canvas.height
+        + radius
     }
-    )
+
+}
 
 function animate() {
     requestAnimationFrame(animate)
