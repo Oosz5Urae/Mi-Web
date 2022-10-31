@@ -77,7 +77,7 @@ const projectiles = []
 const enemies = []
 
 function spawnEnemies() {
-// setInterval(() => {
+ setInterval(() => {
     const radius = Math.random() * (50 - 5) + 5
 
     let x
@@ -106,32 +106,56 @@ y: Math.sin(angle)
     enemies.push(new Enemy(x, y, radius, color,
          velocity))
 
-// }, 1000)
+}, 1000)
 }
 
+let animationId
 function animate() {
-    requestAnimationFrame(animate)
+    animationId = requestAnimationFrame(animate)
     c.clearRect(0, 0, canvas.width, canvas.height)
     player.draw()
-  projectiles.forEach(projectile => {
+  projectiles.forEach((projectile, index) => {
     projectile.update()
+
+    // remove from edges of screen
+    if (projectile.x + projectile.radius < 0 ||
+        projectile.x - projectile.radius > canvas.width ||
+        projectile.y + projectile.radius < 0 ||
+        projectile.y - projectile.radius > canvas.height 
+        ) {
+        setTimeout(() => {
+            projectiles.splice(index, 1)
+        }, 0)
+    }
   })
 
-  enemies.forEach(enemy => {
+  enemies.forEach((enemy, index) => {
 enemy.update()
 
-projectiles.forEach(projectile => {
+const dist = Math.hypot(player.x - enemy.x, player.y -
+    enemy.y)
+
+    // end game
+    if (dist - enemy.radius - player.radius < 1)
+cancelAnimationFrame(animationId)
+projectiles.forEach((projectile, projectileIndex) => {
    const dist = Math.hypot(projectile.x - enemy.x, projectile.y -
         enemy.y)
 
-if (dist - enemy.radius - projectile.radius < 1) {
-    enemies.splice()
+// object touch
+if (dist - enemy.radius - projectile.radius < 1) 
+{
+    setTimeout(() => {
+        enemies.splice(index, 1)
+        projectiles.splice(projectileIndex, 1)
+    }, 0)
 }
 })
   })
 }
 
 addEventListener('click', (event) =>  {
+    console.log(projectiles)
     const angle = Math.atan2(
         event.clientY - canvas.height / 
         2,
