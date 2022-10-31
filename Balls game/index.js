@@ -77,7 +77,7 @@ const projectiles = []
 const enemies = []
 
 function spawnEnemies() {
-setInterval(() => {
+// setInterval(() => {
     const radius = Math.random() * (50 - 5) + 5
 
     let x
@@ -106,7 +106,7 @@ y: Math.sin(angle)
     enemies.push(new Enemy(x, y, radius, color,
          velocity))
 
-}, 1000)
+// }, 1000)
 }
 
 function animate() {
@@ -119,7 +119,16 @@ function animate() {
 
   enemies.forEach(enemy => {
 enemy.update()
-  });
+
+projectiles.forEach(projectile => {
+   const dist = Math.hypot(projectile.x - enemy.x, projectile.y -
+        enemy.y)
+
+if (dist - enemy.radius - projectile.radius < 1) {
+    enemies.splice()
+}
+})
+  })
 }
 
 addEventListener('click', (event) =>  {
