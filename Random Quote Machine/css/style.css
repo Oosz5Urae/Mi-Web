@@ -1,5 +1,5 @@
 * {
-    
+
 }
 
 body {
@@ -11,14 +11,17 @@ body {
 }
 
 #quote-box {
-    margin: auto;
-    padding: auto;
-    text-align: center;
-    align-items: center;
+    border-radius: 3px;
+    position: relative;
+    margin: 5% auto auto auto;
+    width: 500px;
+    padding: 40px 50px;
+    display: table;
+    background-color: rgb(45, 48, 231);
 }
 
 #text {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 #author {
