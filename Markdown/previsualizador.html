@@ -1,0 +1,47 @@
+<style>
+    body {
+        background: lightblue;
+    }
+    header h1{
+        font-size: 4em;
+        margin-top: 0.67em;
+        margin-bottom: 0.67em;
+        margin-left: 0;
+        margin-right: 0;
+        font-weight: bold;
+    }
+    .box {
+        display: flex;
+    
+        padding: 10px;
+    }
+    .one {
+        flex: 1;
+        border: double;
+        background: gray;
+        padding: 10px;
+    }
+    .two {
+        flex: 1;
+        border: double;
+        background: white;
+        padding: 20px;
+    }
+</style>
+<body>
+
+    <div id="app"></div>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<script>
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            this.state = {
+                markdownInput: '# Heading\n## Sub-heading\n\n[This is a link.](https://www.freecodecamp.org)\n\n`This is inline code.`\n\n```\nThis is a code block.\n```\n\nThis is a list:\n* item 1\n* item 2\n* item 3\n\n> This is a blockquote.\n\n![Image](https://raw.githubusercontent.com/Johnny2136/FCC-Projects/master/images/images.png)\n\n**This is bolded text.**'
+            };
+            
+        }
+    }
+</script>
+</body>
