@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #516dff;
+  background-color: #b081e6;
   color: #fff;
   font-family: 'Press Start 2P', sans-serif;
   height: 100vh;
@@ -24,8 +24,8 @@ h1 {
 
 .btn {
   border: 0;
-  background-color: #fff;
-  color: #516dff;
+  background-color: rgb(255, 2, 242);
+  color: #f7f8fc;
   padding: 15px 20px;
   font-family: inherit;
   cursor: pointer;
@@ -145,6 +145,6 @@ h1 {
 }
 
 .insect img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
